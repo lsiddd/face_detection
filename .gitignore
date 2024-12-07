@@ -1,0 +1,39 @@
+# Ignore build and output directories
+/build/
+out/
+/bin/
+/lib/
+/CMakeFiles/
+/CMakeCache.txt
+Makefile
+*.cmake
+
+# Ignore object and compiled files
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OpenCV Haar Cascade XML file (optional, if not needed in version control)
+haarcascade_frontalface_default.xml
+
+# Ignore temporary files
+*.log
+*.bak
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Meson build files if not needed in version control
+meson-logs/
+
